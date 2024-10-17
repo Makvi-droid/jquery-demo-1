@@ -23,6 +23,6 @@ $(document).ready(function(){
 
     $('.multiplyBtn').click(function(){
         let product = parseFloat($('#num1').val()) * parseFloat($('#num2').val());
-        return $('.answer').text(`The sum is ${product}`);
+        return $('.answer').text(`The product is ${product}`);
     });
 });
